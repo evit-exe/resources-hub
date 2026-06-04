@@ -311,7 +311,7 @@
             "name": "Simply DPA Matrix",
             "type": "Matrix",
             "status": "available",
-            "pdf": "https://cdn.prod.website-files.com/67c8baa0074bec6e6b3d7b29/6a21c6588306a43ee966b94f_SimplyPMG%20%20Simply%20DPA%20Program%20Matrix%2005.11.26.pdf"
+            "monday": "https://cdn.prod.website-files.com/67c8baa0074bec6e6b3d7b29/6a21c6588306a43ee966b94f_SimplyPMG%20%20Simply%20DPA%20Program%20Matrix%2005.11.26.pdf"
           },
           {
             "id": "11800994437",
