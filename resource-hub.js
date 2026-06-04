@@ -240,21 +240,21 @@
             "id": "11800269533",
             "name": "Conventional Eligibility Matrix",
             "type": "Matrix",
-            "status": "updating",
+            "status": "available",
             "monday": "https://cdn.prod.website-files.com/67c8baa0074bec6e6b3d7b29/69fd1cd3b40f3bd4b284f5a7_SimplyPMG%20-%20Conventional%20Program%20Matrix%2005.05.26.pdf"
           },
           {
             "id": "11885297753",
             "name": "Fannie Mae HomeReady® Mortgage Matrix",
             "type": "Matrix",
-            "status": "updating",
+            "status": "available",
             "monday": "https://cdn.prod.website-files.com/67c8baa0074bec6e6b3d7b29/69fd1ceee39ec6cf7d75daf9_SimplyPMG%20-%20FNMA%20Conventional%20HomeReady%2005.05.26.pdf"
           },
           {
             "id": "11885375151",
             "name": "Freddie Mac Home Possible® Mortgage",
             "type": "Matrix",
-            "status": "updating",
+            "status": "available",
             "monday": "https://cdn.prod.website-files.com/67c8baa0074bec6e6b3d7b29/69fd1d074ea95b8abd27ed58_SimplyPMG%20-%20Freddie%20Mac%20Conventional%20HomePossible%20Matrix%2005.05.26.pdf"
           }
         ]
@@ -268,21 +268,21 @@
             "id": "11800968248",
             "name": "FHA Eligibility Matrix",
             "type": "Matrix",
-            "status": "updating",
+            "status": "available",
             "monday": "https://cdn.prod.website-files.com/67c8baa0074bec6e6b3d7b29/69fd1d5ab2b7a3f5dffa3ce1_SimplyPMG%20-%20FHA%20Program%20Matrix%2005.05.26.pdf"
           },
           {
             "id": "11800989724",
             "name": "VA Eligibility Matrix",
             "type": "Matrix",
-            "status": "updating",
+            "status": "available",
             "monday": "https://cdn.prod.website-files.com/67c8baa0074bec6e6b3d7b29/69fd1d7c6ed6082b569e4bbe_SimplyPMG%20-%20VA%20Program%20Matrix%2005.05.26.pdf"
           },
           {
             "id": "11801004580",
             "name": "USDA Eligibility Matrix",
             "type": "Matrix",
-            "status": "updating",
+            "status": "available",
             "monday": "https://cdn.prod.website-files.com/67c8baa0074bec6e6b3d7b29/69fd1d9252598565db91e4af_SimplyPMG%20-%20USDA%20Program%20Matrix%2005.05.26.pdf"
           }
         ]
@@ -331,7 +331,7 @@
             "id": "11801125396",
             "name": "EEP Matrix",
             "type": "Matrix",
-            "status": "updating",
+            "status": "available",
             "monday": "https://cdn.prod.website-files.com/67c8baa0074bec6e6b3d7b29/69fd1db727a6e0f0b063cd98_SimplyPMG%20-%20Earned%20Equity%20Program%20Matrix%2005.05.26.pdf"
           }
         ]
