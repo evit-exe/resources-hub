@@ -3,84 +3,118 @@
    reference it from the Webflow embed snippet. */
 (function(){
   const DATA = [
-  {
-    "id": "eep",
-    "label": "EEP",
-    "icon": "★",
-    "badge": "Signature",
-    "lede": "PMG's exclusive Earned Equity Program — everything brokers need to position, originate, and close EEP loans.",
-    "total": 27,
+    /* hidden until ready
+    { 
+    "id": "become-a-partner",
+    "label": "Becoming a Partner",
+    "icon": "🤝",
+    "badge": null,
+    "lede": "Become a Wholesale Partner — SimplyPMG.pro is your one-stop resource hub for broker onboarding, training, and support.",
+    "total": 1,
     "subcategories": [
       {
         "id": "guides",
         "label": "Guides",
-        "count": 9,
+        "count": 1,
         "items": [
           {
-            "id": "11800250174",
-            "name": "EEP Submission Overview",
+            "id": "0",
+            "name": "TBD",
+            "type": "Document",
+            "status": "coming",
+            "monday": "#"
+          }
+        ]
+      }
+    ]
+  }, */
+  {
+    "id": "eep",
+    "label": "Earned Equity Program (EEP)",
+    "icon": "★",
+    "badge": null,
+    "lede": "PMG's exclusive Earned Equity Program — everything brokers need to position, originate, and close EEP loans.",
+    "total": 10,
+    "subcategories": [
+      {
+        "id": "guides",
+        "label": "Guides",
+        "count": 6,
+        "items": [
+          {
+            "id": "11800224816",
+            "name": "Borrower Paid vs Lender Paid? - Guide",
             "type": "Guide",
-            "status": "updating",
-            "monday": "https://pmgllc.monday.com/boards/18409470276/pulses/11800250174"
+            "status": "coming",
+            "monday": "#"
+          },
+          {
+            "id": "11800250131",
+            "name": "DPA Steps to Register/Lock",
+            "type": "Guide",
+            "status": "coming",
+            "monday": "#"
+          },
+          {
+            "id": "11800998925",
+            "name": "Earned Equity Program - Overview",
+            "type": "Document",
+            "status": "coming",
+            "monday": "#"
           },
           {
             "id": "11800233011",
             "name": "EEP Appraisal Ordering",
             "type": "Guide",
             "status": "coming",
-            "monday": "https://pmgllc.monday.com/boards/18409470276/pulses/11800233011"
+            "monday": "#"
+          },
+          {
+            "id": "11800217794",
+            "name": "EEP Submission Overview",
+            "type": "Guide",
+            "status": "coming",
+            "monday": "#"
+          },
+          {
+            "id": "11800222093",
+            "name": "Entity Job Aid / Phase 2",
+            "type": "Guide",
+            "status": "coming",
+            "monday": "#"
+          }
+        ]
+      },
+ 
+      {
+        "id": "documents",
+        "label": "Documents",
+        "count": 3,
+        "items": [
+          {
+            "id": "11800248531",
+            "name": "EEP HOI Request Checklist",
+            "type": "Form",
+            "status": "coming",
+            "monday": "#"
+          },
+          {
+            "id": "11800243498",
+            "name": "EEP Pre-Approval Checklist",
+            "type": "Checklist",
+            "status": "coming",
+            "monday": "#"
           },
           {
             "id": "11800234132",
             "name": "EEP Self Employment Calculator",
             "type": "Guide",
-            "status": "updating",
-            "monday": "https://pmgllc.monday.com/boards/18409470276/pulses/11800234132"
-          },
-          {
-            "id": "11830954901",
-            "name": "How to lock EEP Loans",
-            "type": "Guide",
             "status": "coming",
-            "monday": "https://pmgllc.monday.com/boards/18409470276/pulses/11830954901"
-          },
-          {
-            "id": "11800217794",
-            "name": "Process Flow: EEP Closing",
-            "type": "Job Aid",
-            "status": "coming",
-            "monday": "https://pmgllc.monday.com/boards/18409470276/pulses/11800217794"
-          },
-          {
-            "id": "11800222095",
-            "name": "Process Flow: EEP TBD/HB",
-            "type": "Job Aid",
-            "status": "coming",
-            "monday": "https://pmgllc.monday.com/boards/18409470276/pulses/11800222095"
-          },
-          {
-            "id": "11800252885",
-            "name": "Process Flow: EEP TR Files",
-            "type": "Job Aid",
-            "status": "coming",
-            "monday": "https://pmgllc.monday.com/boards/18409470276/pulses/11800252885"
-          },
-          {
-            "id": "11800262707",
-            "name": "Process Flow: EEP Closing TX",
-            "type": "Job Aid",
-            "status": "coming",
-            "monday": "https://pmgllc.monday.com/boards/18409470276/pulses/11800262707"
-          },
-          {
-            "id": "11800241510",
-            "name": "TX EEP Overview",
-            "type": "Job Aid",
-            "status": "coming",
-            "monday": "https://pmgllc.monday.com/boards/18409470276/pulses/11800241510"
+            "monday": "#"
           }
         ]
       },
+
       {
         "id": "faq",
         "label": "FAQ",
@@ -91,136 +125,10 @@
             "name": "EEP Frequently Asked Questions FAQ",
             "type": "Document",
             "status": "coming",
-            "monday": "https://pmgllc.monday.com/boards/18409470276/pulses/11800222278"
+            "monday": "#"
           }
         ]
       },
-      {
-        "id": "documents",
-        "label": "Documents",
-        "count": 17,
-        "items": [
-          {
-            "id": "11800998925",
-            "name": "Earned Equity Program",
-            "type": "Document",
-            "status": "updating",
-            "monday": "https://pmgllc.monday.com/boards/18409470276/pulses/11800998925"
-          },
-          {
-            "id": "11800243498",
-            "name": "EEP Pre-Approval Checklist",
-            "type": "Checklist",
-            "status": "coming",
-            "monday": "https://pmgllc.monday.com/boards/18409470276/pulses/11800243498"
-          },
-          {
-            "id": "11800248531",
-            "name": "EEP HOI Request Checklist",
-            "type": "Form",
-            "status": "updating",
-            "monday": "https://pmgllc.monday.com/boards/18409470276/pulses/11800248531"
-          },
-          {
-            "id": "11801125396",
-            "name": "EEP Matrix",
-            "type": "Matrix",
-            "status": "updating",
-            "monday": "https://pmgllc.monday.com/boards/18409470276/pulses/11801125396"
-          },
-          {
-            "id": "11809422184",
-            "name": "EEP Approved Title Company",
-            "type": "Form",
-            "status": "coming",
-            "monday": "https://pmgllc.monday.com/boards/18409470276/pulses/11809422184"
-          },
-          {
-            "id": "11883707055",
-            "name": "EEP Assignment Addendum (non TX)",
-            "type": "Form",
-            "status": "coming",
-            "monday": "https://pmgllc.monday.com/boards/18409470276/pulses/11883707055"
-          },
-          {
-            "id": "11883745174",
-            "name": "EEP Condo/PUD Doc",
-            "type": "Form",
-            "status": "coming",
-            "monday": "https://pmgllc.monday.com/boards/18409470276/pulses/11883745174"
-          },
-          {
-            "id": "11883760982",
-            "name": "EEP Consumer Disclosure",
-            "type": "Form",
-            "status": "coming",
-            "monday": "https://pmgllc.monday.com/boards/18409470276/pulses/11883760982"
-          },
-          {
-            "id": "11884289587",
-            "name": "EEP Consumer Lease Application Auth",
-            "type": "Form",
-            "status": "coming",
-            "monday": "https://pmgllc.monday.com/boards/18409470276/pulses/11884289587"
-          },
-          {
-            "id": "11884276015",
-            "name": "Disclosure Re Haz and Renters Ins",
-            "type": "Form",
-            "status": "coming",
-            "monday": "https://pmgllc.monday.com/boards/18409470276/pulses/11884276015"
-          },
-          {
-            "id": "11884291018",
-            "name": "EEP Disclosure",
-            "type": "Form",
-            "status": "coming",
-            "monday": "https://pmgllc.monday.com/boards/18409470276/pulses/11884291018"
-          },
-          {
-            "id": "11884297691",
-            "name": "HI Cure Agreement",
-            "type": "Form",
-            "status": "coming",
-            "monday": "https://pmgllc.monday.com/boards/18409470276/pulses/11884297691"
-          },
-          {
-            "id": "11884284834",
-            "name": "Home Property Inspection Acknowledgement",
-            "type": "Form",
-            "status": "coming",
-            "monday": "https://pmgllc.monday.com/boards/18409470276/pulses/11884284834"
-          },
-          {
-            "id": "11884354089",
-            "name": "Homeownership Cost Estimator",
-            "type": "Form",
-            "status": "coming",
-            "monday": "https://pmgllc.monday.com/boards/18409470276/pulses/11884354089"
-          },
-          {
-            "id": "11884332430",
-            "name": "Insurance Provider Discl",
-            "type": "Form",
-            "status": "coming",
-            "monday": "https://pmgllc.monday.com/boards/18409470276/pulses/11884332430"
-          },
-          {
-            "id": "11884312377",
-            "name": "Property Insurance Disclosure",
-            "type": "Form",
-            "status": "coming",
-            "monday": "https://pmgllc.monday.com/boards/18409470276/pulses/11884312377"
-          },
-          {
-            "id": "11884345756",
-            "name": "Utility Closing Form",
-            "type": "Form",
-            "status": "coming",
-            "monday": "https://pmgllc.monday.com/boards/18409470276/pulses/11884345756"
-          }
-        ]
-      }
     ]
   },
   {
@@ -229,16 +137,16 @@
     "icon": "📊",
     "badge": null,
     "lede": "Eligibility matrices for every PMG loan program. Downloadable PDFs, updated monthly.",
-    "total": 11,
+    "total": 8,
     "subcategories": [
       {
         "id": "conventional",
-        "label": "Conventional",
+        "label": "Conventional Products",
         "count": 3,
         "items": [
           {
             "id": "11800269533",
-            "name": "Conventional Eligibility Matrix",
+            "name": "Conventional Conforming Fixed Matrix",
             "type": "Matrix",
             "status": "available",
             "monday": "https://cdn.prod.website-files.com/67c8baa0074bec6e6b3d7b29/69fd1cd3b40f3bd4b284f5a7_SimplyPMG%20-%20Conventional%20Program%20Matrix%2005.05.26.pdf"
@@ -261,7 +169,7 @@
       },
       {
         "id": "government",
-        "label": "Government",
+        "label": "Government Products",
         "count": 3,
         "items": [
           {
@@ -272,39 +180,32 @@
             "monday": "https://cdn.prod.website-files.com/67c8baa0074bec6e6b3d7b29/69fd1d5ab2b7a3f5dffa3ce1_SimplyPMG%20-%20FHA%20Program%20Matrix%2005.05.26.pdf"
           },
           {
-            "id": "11800989724",
-            "name": "VA Eligibility Matrix",
-            "type": "Matrix",
-            "status": "available",
-            "monday": "https://cdn.prod.website-files.com/67c8baa0074bec6e6b3d7b29/69fd1d7c6ed6082b569e4bbe_SimplyPMG%20-%20VA%20Program%20Matrix%2005.05.26.pdf"
-          },
-          {
             "id": "11801004580",
             "name": "USDA Eligibility Matrix",
             "type": "Matrix",
             "status": "available",
             "monday": "https://cdn.prod.website-files.com/67c8baa0074bec6e6b3d7b29/69fd1d9252598565db91e4af_SimplyPMG%20-%20USDA%20Program%20Matrix%2005.05.26.pdf"
+          },
+          {
+            "id": "11800989724",
+            "name": "VA Eligibility Matrix",
+            "type": "Matrix",
+            "status": "available",
+            "monday": "https://cdn.prod.website-files.com/67c8baa0074bec6e6b3d7b29/69fd1d7c6ed6082b569e4bbe_SimplyPMG%20-%20VA%20Program%20Matrix%2005.05.26.pdf"
           }
         ]
       },
       {
-        "id": "dpa",
-        "label": "DPA",
-        "count": 4,
+        "id": "specialty",
+        "label": "Specialty Products",
+        "count": 2,
         "items": [
           {
-            "id": "11800984592",
-            "name": "Advantage DPA",
+            "id": "11801125396",
+            "name": "EEP Matrix",
             "type": "Matrix",
-            "status": "updating",
-            "monday": "https://pmgllc.monday.com/boards/18409470276/pulses/11800984592"
-          },
-          {
-            "id": "11932140107",
-            "name": "Edge DPA",
-            "type": "Matrix",
-            "status": "updating",
-            "monday": "https://pmgllc.monday.com/boards/18409470276/pulses/11932140107"
+            "status": "available",
+            "monday": "https://cdn.prod.website-files.com/67c8baa0074bec6e6b3d7b29/69fd1db727a6e0f0b063cd98_SimplyPMG%20-%20Earned%20Equity%20Program%20Matrix%2005.05.26.pdf"
           },
           {
             "id": "12026614264",
@@ -312,17 +213,10 @@
             "type": "Matrix",
             "status": "available",
             "monday": "https://cdn.prod.website-files.com/67c8baa0074bec6e6b3d7b29/6a21c6588306a43ee966b94f_SimplyPMG%20%20Simply%20DPA%20Program%20Matrix%2005.11.26.pdf"
-          },
-          {
-            "id": "11800994437",
-            "name": "DPA Comparison Chart",
-            "type": "Matrix",
-            "status": "coming",
-            "monday": "https://pmgllc.monday.com/boards/18409470276/pulses/11800994437"
           }
         ]
       },
-      {
+      /*{
         "id": "eep-cross-listed",
         "label": "EEP (cross-listed)",
         "count": 1,
@@ -335,7 +229,94 @@
             "monday": "https://cdn.prod.website-files.com/67c8baa0074bec6e6b3d7b29/69fd1db727a6e0f0b063cd98_SimplyPMG%20-%20Earned%20Equity%20Program%20Matrix%2005.05.26.pdf"
           }
         ]
-      }
+      }*/
+    ]
+  },
+    {
+    "id": "guides-how-tos",
+    "label": "Guides & How-To's",
+    "icon": "📖",
+    "badge": null,
+    "lede": "Step-by-step walkthroughs for every stage of the loan workflow.",
+    "total": 2,
+    "subcategories": [
+      {
+        "id": "submission",
+        "label": "Submission",
+        "count": 2,
+        "items": [
+          {
+            "id": "11801049767",
+            "name": "Ordering Appraisals - Guide",
+            "type": "Guide",
+            "status": "available",
+            "monday": "https://cdn.prod.website-files.com/67c8baa0074bec6e6b3d7b29/6a4d2f0a090520b25891d539_SimplyPMG.pro%20Ordering%20Appraisals%20-%20Guide%20v1.3.pdf"
+          },
+          {
+            "id": "11801054275",
+            "name": "DPA Stacking with FHA or Conventional Loans - Guide",
+            "type": "Guide",
+            "status": "available",
+            "monday": "https://cdn.prod.website-files.com/67c8baa0074bec6e6b3d7b29/6a4d2f6771ce22d09bcce8c3_SimplyPMG.pro%20DPA%20Stacking%20with%20FHA%20or%20Conventional%20Loans%20-%20Guide%20v1.pdf"
+          },
+        ]
+      }/*,
+      {
+        "id": "lock-pricing",
+        "label": "Lock & Pricing",
+        "count": 1,
+        "items": [
+          {
+            "id": "0",
+            "name": "TBP",
+            "type": "Document",
+            "status": "coming",
+            "monday": "#"
+          }
+        ]
+      },
+      {
+        "id": "underwriting",
+        "label": "Underwriting",
+        "count": 1,
+        "items": [
+          {
+            "id": "0",
+            "name": "TBP",
+            "type": "Document",
+            "status": "coming",
+            "monday": "#"
+          }
+        ]
+      },
+      {
+        "id": "closing-funding",
+        "label": "Closing & Funding",
+        "count": 1,
+        "items": [
+          {
+            "id": "0",
+            "name": "TBP",
+            "type": "Document",
+            "status": "coming",
+            "monday": "#"
+          }
+        ]
+      },
+      {
+        "id": "system-tools",
+        "label": "System Tools",
+        "count": 1,
+        "items": [
+          {
+            "id": "0",
+            "name": "TBP",
+            "type": "Document",
+            "status": "coming",
+            "monday": "#"
+          }
+        ]
+      }*/
     ]
   },
   {
@@ -344,8 +325,22 @@
     "icon": "📄",
     "badge": null,
     "lede": "Forms, checklists, and templates — everything brokers need to submit and process a loan.",
-    "total": 22,
+    "total": 19,
     "subcategories": [
+      {
+        "id": "checklists",
+        "label": "Checklists",
+        "count": 1,
+        "items": [
+          {
+            "id": "11801036646",
+            "name": "Wholesale Loan Submission Form & Checklist",
+            "type": "Checklist",
+            "status": "available",
+            "monday": "https://cdn.prod.website-files.com/67c8baa0074bec6e6b3d7b29/6a4d41129bf1c02288035be5_SimplyPMG.pro%20Wholesale%20Loan%20Submission%20Form%20%26%20Checklist%20v1.pdf"
+          }
+        ]
+      },
       {
         "id": "submission-forms",
         "label": "Submission Forms",
@@ -353,31 +348,31 @@
         "items": [
           {
             "id": "11801113360",
-            "name": "Conventional Loan Submission Form",
+            "name": "Conventional UW Submission Form & Checklist",
             "type": "Form",
-            "status": "updating",
-            "monday": "https://pmgllc.monday.com/boards/18409470276/pulses/11801113360"
-          },
-          {
-            "id": "11801158040",
-            "name": "FHA Loan Sub Form",
-            "type": "Form",
-            "status": "updating",
-            "monday": "https://pmgllc.monday.com/boards/18409470276/pulses/11801158040"
-          },
-          {
-            "id": "11801106528",
-            "name": "VA Loan Submission Form",
-            "type": "Form",
-            "status": "updating",
-            "monday": "https://pmgllc.monday.com/boards/18409470276/pulses/11801106528"
+            "status": "available",
+            "monday": "https://cdn.prod.website-files.com/67c8baa0074bec6e6b3d7b29/6a4d468a1e1851208f30d258_SimplyPMG.pro%20Conventional%20UW%20Submission%20Form%20%26%20Checklist%20v1.pdf"
           },
           {
             "id": "11801105235",
             "name": "Doc Request Form",
             "type": "Form",
-            "status": "updating",
-            "monday": "https://pmgllc.monday.com/boards/18409470276/pulses/11801105235"
+            "status": "available",
+            "monday": "https://cdn.prod.website-files.com/67c8baa0074bec6e6b3d7b29/6a4d46e462005b3eda98ef56_SimplyPMG.pro%20Doc%20Request%20Form%20%20v1.pdf"
+          },
+          {
+            "id": "11801158040",
+            "name": "FHA UW Loan Submission Form & Checklist",
+            "type": "Form",
+            "status": "available",
+            "monday": "https://cdn.prod.website-files.com/67c8baa0074bec6e6b3d7b29/6a4d474b4a71e3459cce9608_SimplyPMG.pro%20FHA%20UW%20Loan%20Submission%20Form%20%26%20Checklist%20v1.pdf"
+          },
+          {
+            "id": "11801106528",
+            "name": "VA UW Loan Submission Form & Checklist",
+            "type": "Form",
+            "status": "available",
+            "monday": "https://cdn.prod.website-files.com/67c8baa0074bec6e6b3d7b29/6a4d477fc04d93e8337c92c7_SimplyPMG.pro%20VA%20UW%20Loan%20Submission%20Form%20%26%20Checklist%20v1.pdf"
           }
         ]
       },
@@ -387,109 +382,101 @@
         "count": 6,
         "items": [
           {
+            "id": "11801110857",
+            "name": "Anti-Steering Loan Options Disclosure Form",
+            "type": "Form",
+            "status": "available",
+            "monday": "https://cdn.prod.website-files.com/67c8baa0074bec6e6b3d7b29/6a457280e8caf3c1e2d5d382_SimplyPMG.pro%20Anti-Steering%20Loan%20Options%20Disclosure%20Form%20v1.pdf"
+          },
+         {
+            "id": "11801157761",
+            "name": "Government Agency Approval Numbers",
+            "type": "Form",
+            "status": "available",
+            "monday": "https://cdn.prod.website-files.com/67c8baa0074bec6e6b3d7b29/6a4575211311703db968ff86_SimplyPMG.pro%20Government%20Agency%20Approval%20Numbers%20v1.pdf"
+          },
+          {
             "id": "11801157637",
             "name": "Initial Closing Disclosure Request Form",
             "type": "Form",
-            "status": "updating",
-            "monday": "https://pmgllc.monday.com/boards/18409470276/pulses/11801157637"
+            "status": "available",
+            "monday": "https://cdn.prod.website-files.com/67c8baa0074bec6e6b3d7b29/6a4575fa033b523a7bf655ca_SimplyPMG.pro%20Initial%20Closing%20Disclosure%20Request%20Form%20v1.pdf"
           },
           {
             "id": "11801157471",
             "name": "Lender Disclosure Request Form",
             "type": "Form",
-            "status": "updating",
-            "monday": "https://pmgllc.monday.com/boards/18409470276/pulses/11801157471"
-          },
-          {
-            "id": "11801092545",
-            "name": "Re-Disclosure | Change of Circumstance",
-            "type": "Form",
-            "status": "updating",
-            "monday": "https://pmgllc.monday.com/boards/18409470276/pulses/11801092545"
+            "status": "available",
+            "monday": "https://cdn.prod.website-files.com/67c8baa0074bec6e6b3d7b29/6a457674304ef8d3be2a3994_SimplyPMG.pro%20Lender%20Disclosure%20Request%20Form%20v1.pdf"
           },
           {
             "id": "11801107814",
-            "name": "Mortgage Broker Fee Agreement",
+            "name": "Mortgage Broker Fee Agreement Form",
             "type": "Form",
-            "status": "updating",
-            "monday": "https://pmgllc.monday.com/boards/18409470276/pulses/11801107814"
+            "status": "available",
+            "monday": "https://cdn.prod.website-files.com/67c8baa0074bec6e6b3d7b29/6a45772e40be8fce64edb076_SimplyPMG.pro%20Mortgage%20Broker%20Fee%20Agreement%20Form%20v1.pdf"
           },
           {
-            "id": "11801110857",
-            "name": "Anti-Steering Loan Options Disclosure Form",
+            "id": "11801092545",
+            "name": "Re-Disclosure Change of Circumstance Form",
             "type": "Form",
-            "status": "updating",
-            "monday": "https://pmgllc.monday.com/boards/18409470276/pulses/11801110857"
-          },
-          {
-            "id": "11801157761",
-            "name": "Gov Sponsorship Info",
-            "type": "Form",
-            "status": "updating",
-            "monday": "https://pmgllc.monday.com/boards/18409470276/pulses/11801157761"
+            "status": "available",
+            "monday": "https://cdn.prod.website-files.com/67c8baa0074bec6e6b3d7b29/6a457791a197dc74b49f5b97_SimplyPMG.pro%20Re-Disclosure%20Change%20of%20Circumstance%20Form%20v1.pdf"
           }
         ]
       },
       {
         "id": "borrower-forms",
         "label": "Borrower Forms",
-        "count": 8,
+        "count": 7,
         "items": [
           {
-            "id": "11801092802",
-            "name": "Gift Letter",
-            "type": "Form",
-            "status": "updating",
-            "monday": "https://pmgllc.monday.com/boards/18409470276/pulses/11801092802"
-          },
-          {
-            "id": "11801131251",
-            "name": "Power of Attorney Borrower Cert",
-            "type": "Form",
-            "status": "updating",
-            "monday": "https://pmgllc.monday.com/boards/18409470276/pulses/11801131251"
-          },
-          {
-            "id": "11801103930",
-            "name": "VA Nearest Living Relative",
-            "type": "Form",
-            "status": "updating",
-            "monday": "https://pmgllc.monday.com/boards/18409470276/pulses/11801103930"
-          },
-          {
             "id": "11801157644",
-            "name": "Condo Questionnaire",
+            "name": "Condominium Project Questionnaire Form",
             "type": "Form",
-            "status": "updating",
-            "monday": "https://pmgllc.monday.com/boards/18409470276/pulses/11801157644"
+            "status": "available",
+            "monday": "https://cdn.prod.website-files.com/67c8baa0074bec6e6b3d7b29/6a45787e4be8888d3fa33ee5_SimplyPMG.pro%20Condominium%20Project%20Questionnaire%20Form%20v1.pdf"
           },
           {
             "id": "11801110907",
-            "name": "Extended Fraud Victim Alert Cert",
+            "name": "Extended Fraud Victim Alert Certification Form",
             "type": "Form",
-            "status": "updating",
-            "monday": "https://pmgllc.monday.com/boards/18409470276/pulses/11801110907"
+            "status": "available",
+            "monday": "https://cdn.prod.website-files.com/67c8baa0074bec6e6b3d7b29/6a457ba23414f31e71a581e3_SimplyPMG.pro%20Extended%20Fraud%20Victim%20Alert%20Certification%20Form%20v1.pdf"
+          },
+          {
+            "id": "11801092802",
+            "name": "Gift Letter Form",
+            "type": "Form",
+            "status": "available",
+            "monday": "https://cdn.prod.website-files.com/67c8baa0074bec6e6b3d7b29/6a457e9231af243f6cfe41d1_SimplyPMG.pro%20Gift%20Letter%20Form%20v1.pdf"
+          },{
+            "id": "11801131251",
+            "name": "Power of Attorney Borrower Certification Form",
+            "type": "Form",
+            "status": "available",
+            "monday": "https://cdn.prod.website-files.com/67c8baa0074bec6e6b3d7b29/6a457f3abc5c2b6c3251a6c2_SimplyPMG.pro%20Power%20of%20Attorney%20Borrower%20Certification%20Form%20v1.pdf"
           },
           {
             "id": "11801105887",
-            "name": "SSN Verif SSA-89",
+            "name": "SSA-89 SSN Verification Form",
             "type": "Form",
-            "status": "updating",
-            "monday": "https://pmgllc.monday.com/boards/18409470276/pulses/11801105887"
+            "status": "available",
+            "monday": "https://cdn.prod.website-files.com/67c8baa0074bec6e6b3d7b29/6a457ff3b8b69ce119f74d3d_SimplyPMG.pro%20SSA-89%20SSN%20Verification%20Form%20v1.pdf"
+          },
+          {
+            "id": "11801103930",
+            "name": "VA Nearest Living Relative Form",
+            "type": "Form",
+            "status": "available",
+            "monday": "https://cdn.prod.website-files.com/67c8baa0074bec6e6b3d7b29/6a45806ee986be7b9253491e_SimplyPMG.pro%20VA%20Nearest%20Living%20Relative%20Form%20v1.pdf"
           },
           {
             "id": "11801158025",
-            "name": "VOR Form",
+            "name": "Request for Verification of Rent Form",
             "type": "Form",
-            "status": "updating",
-            "monday": "https://pmgllc.monday.com/boards/18409470276/pulses/11801158025"
-          },
-          {
-            "id": "11801055128",
-            "name": "Borrower Authorization Form",
-            "type": "Form",
-            "status": "updating",
-            "monday": "https://pmgllc.monday.com/boards/18409470276/pulses/11801055128"
+            "status": "available",
+            "monday": "https://cdn.prod.website-files.com/67c8baa0074bec6e6b3d7b29/6a458103b8b69ce119f7a0d1_SimplyPMG.pro%20Request%20for%20Verification%20of%20Rent%20Form%20v1.pdf"
           }
         ]
       },
@@ -500,285 +487,51 @@
         "items": [
           {
             "id": "11801085042",
-            "name": "Mortgagee Clause",
+            "name": "Mortgagee/Loss Payee Clause",
             "type": "Form",
-            "status": "updating",
-            "monday": "https://pmgllc.monday.com/boards/18409470276/pulses/11801085042"
-          }
-        ]
-      },
-      {
-        "id": "checklists",
-        "label": "Checklists",
-        "count": 3,
-        "items": [
-          {
-            "id": "11801036646",
-            "name": "Loan Submission Checklist",
-            "type": "Checklist",
-            "status": "updating",
-            "monday": "https://pmgllc.monday.com/boards/18409470276/pulses/11801036646"
-          },
-          {
-            "id": "11801092214",
-            "name": "Closing Disclosure Review Checklist",
-            "type": "Checklist",
-            "status": "coming",
-            "monday": "https://pmgllc.monday.com/boards/18409470276/pulses/11801092214"
-          },
-          {
-            "id": "11801078094",
-            "name": "Funding Conditions & Final Docs",
-            "type": "Checklist",
-            "status": "coming",
-            "monday": "https://pmgllc.monday.com/boards/18409470276/pulses/11801078094"
+            "status": "available",
+            "monday": "https://cdn.prod.website-files.com/67c8baa0074bec6e6b3d7b29/6a4581c08adc74294794d218_SimplyPMG.pro%20Mortgagee%20Loss%20Payee%20Clause%20v1.pdf"
           }
         ]
       }
     ]
   },
   {
-    "id": "guides-how-tos",
-    "label": "Guides & How-Tos",
-    "icon": "📖",
-    "badge": null,
-    "lede": "Step-by-step walkthroughs for every stage of the loan workflow.",
-    "total": 27,
-    "subcategories": [
-      {
-        "id": "submission-doc-prep",
-        "label": "Submission & Doc Prep",
-        "count": 13,
-        "items": [
-          {
-            "id": "11801049767",
-            "name": "Income Documentation Guide",
-            "type": "Guide",
-            "status": "coming",
-            "monday": "https://pmgllc.monday.com/boards/18409470276/pulses/11801049767"
-          },
-          {
-            "id": "11801054275",
-            "name": "Asset Documentation Guide",
-            "type": "Guide",
-            "status": "coming",
-            "monday": "https://pmgllc.monday.com/boards/18409470276/pulses/11801054275"
-          },
-          {
-            "id": "11801156280",
-            "name": "Self-Employed Borrower Guidelines",
-            "type": "Guide",
-            "status": "coming",
-            "monday": "https://pmgllc.monday.com/boards/18409470276/pulses/11801156280"
-          },
-          {
-            "id": "11801082389",
-            "name": "Gift Fund Guidelines",
-            "type": "Guide",
-            "status": "coming",
-            "monday": "https://pmgllc.monday.com/boards/18409470276/pulses/11801082389"
-          },
-          {
-            "id": "11801084276",
-            "name": "Ordering Credit & Running Dual AUS",
-            "type": "Guide",
-            "status": "updating",
-            "monday": "https://pmgllc.monday.com/boards/18409470276/pulses/11801084276"
-          },
-          {
-            "id": "11801063590",
-            "name": "How to Order an Appraisal",
-            "type": "Guide",
-            "status": "updating",
-            "monday": "https://pmgllc.monday.com/boards/18409470276/pulses/11801063590"
-          },
-          {
-            "id": "11801036827",
-            "name": "How to Submit a Loan",
-            "type": "How-To Guide",
-            "status": "updating",
-            "monday": "https://pmgllc.monday.com/boards/18409470276/pulses/11801036827"
-          },
-          {
-            "id": "11800990001",
-            "name": "FHA Case Number & CAIVRS",
-            "type": "How-To Guide",
-            "status": "coming",
-            "monday": "https://pmgllc.monday.com/boards/18409470276/pulses/11800990001"
-          },
-          {
-            "id": "11801006463",
-            "name": "How to Structure a DPA Loan",
-            "type": "How-To Guide",
-            "status": "coming",
-            "monday": "https://pmgllc.monday.com/boards/18409470276/pulses/11801006463"
-          },
-          {
-            "id": "11800250131",
-            "name": "DPA Steps to Register/Lock",
-            "type": "Guide",
-            "status": "updating",
-            "monday": "https://pmgllc.monday.com/boards/18409470276/pulses/11800250131"
-          },
-          {
-            "id": "11800992047",
-            "name": "How to Obtain a Certificate of Eligibility",
-            "type": "How-To Guide",
-            "status": "updating",
-            "monday": "https://pmgllc.monday.com/boards/18409470276/pulses/11800992047"
-          },
-          {
-            "id": "11801010480",
-            "name": "AUS Findings: DU vs. LPA",
-            "type": "How-To Guide",
-            "status": "updating",
-            "monday": "https://pmgllc.monday.com/boards/18409470276/pulses/11801010480"
-          },
-          {
-            "id": "11800218293",
-            "name": "Entity Job Aid / Phase 2",
-            "type": "Guide",
-            "status": "updating",
-            "monday": "https://pmgllc.monday.com/boards/18409470276/pulses/11800218293"
-          }
-        ]
-      },
-      {
-        "id": "lock-pricing",
-        "label": "Lock & Pricing",
-        "count": 7,
-        "items": [
-          {
-            "id": "11801055069",
-            "name": "How to Lock a Rate",
-            "type": "Guide",
-            "status": "updating",
-            "monday": "https://pmgllc.monday.com/boards/18409470276/pulses/11801055069"
-          },
-          {
-            "id": "11801034467",
-            "name": "How to Request a Lock Extension",
-            "type": "Guide",
-            "status": "updating",
-            "monday": "https://pmgllc.monday.com/boards/18409470276/pulses/11801034467"
-          },
-          {
-            "id": "11801041678",
-            "name": "Lock Periods & Pricing",
-            "type": "Guide",
-            "status": "updating",
-            "monday": "https://pmgllc.monday.com/boards/18409470276/pulses/11801041678"
-          },
-          {
-            "id": "11801028473",
-            "name": "Change of Circumstance (COC) Impact on Locks",
-            "type": "How-To Guide",
-            "status": "coming",
-            "monday": "https://pmgllc.monday.com/boards/18409470276/pulses/11801028473"
-          },
-          {
-            "id": "11801020999",
-            "name": "How to Read the Rate Sheet",
-            "type": "How-To Guide",
-            "status": "coming",
-            "monday": "https://pmgllc.monday.com/boards/18409470276/pulses/11801020999"
-          },
-          {
-            "id": "11801041920",
-            "name": "How to Renegotiate or Float Down",
-            "type": "Policy",
-            "status": "coming",
-            "monday": "https://pmgllc.monday.com/boards/18409470276/pulses/11801041920"
-          },
-          {
-            "id": "11800224816",
-            "name": "Broker Paid vs Lender Paid?",
-            "type": "Guide",
-            "status": "coming",
-            "monday": "https://pmgllc.monday.com/boards/18409470276/pulses/11800224816"
-          }
-        ]
-      },
-      {
-        "id": "underwriting",
-        "label": "Underwriting",
-        "count": 4,
-        "items": [
-          {
-            "id": "11801043944",
-            "name": "How to Check Loan Status",
-            "type": "How-To Guide",
-            "status": "coming",
-            "monday": "https://pmgllc.monday.com/boards/18409470276/pulses/11801043944"
-          },
-          {
-            "id": "11801053595",
-            "name": "Conditions: How to Clear Them",
-            "type": "How-To Guide",
-            "status": "coming",
-            "monday": "https://pmgllc.monday.com/boards/18409470276/pulses/11801053595"
-          },
-          {
-            "id": "11801077562",
-            "name": "How to Submit a Rebuttal",
-            "type": "How-To Guide",
-            "status": "coming",
-            "monday": "https://pmgllc.monday.com/boards/18409470276/pulses/11801077562"
-          },
-          {
-            "id": "11801156142",
-            "name": "Understanding Your Underwriting Decision",
-            "type": "Overview",
-            "status": "coming",
-            "monday": "https://pmgllc.monday.com/boards/18409470276/pulses/11801156142"
-          }
-        ]
-      },
-      {
-        "id": "closing-funding",
-        "label": "Closing & Funding",
-        "count": 2,
-        "items": [
-          {
-            "id": "11801156574",
-            "name": "How to Request Closing Instructions",
-            "type": "How-To Guide",
-            "status": "coming",
-            "monday": "https://pmgllc.monday.com/boards/18409470276/pulses/11801156574"
-          },
-          {
-            "id": "11801073936",
-            "name": "What Happens After CTC",
-            "type": "Overview",
-            "status": "coming",
-            "monday": "https://pmgllc.monday.com/boards/18409470276/pulses/11801073936"
-          }
-        ]
-      },
-      {
-        "id": "system-tools",
-        "label": "System Tools",
-        "count": 1,
-        "items": [
-          {
-            "id": "11801078034",
-            "name": "TPO Connect User Guide",
-            "type": "Guide",
-            "status": "updating",
-            "monday": "https://pmgllc.monday.com/boards/18409470276/pulses/11801078034"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "policies-references",
-    "label": "Policies & References",
+    "id": "policies-reference",
+    "label": "Policies & Reference",
     "icon": "⚖️",
     "badge": null,
     "lede": "Rules, overlays, limits, and reference info that govern how PMG underwrites and closes.",
-    "total": 20,
+    "total": 4,
     "subcategories": [
+      /*{
+        "id": "pricing-lock",
+        "label": "Pricing & Lock",
+        "count": 3,
+        "items": [
+          {
+            "id": "11801023967",
+            "name": "Loan Level Price Adjusters (LLPAs) Guide",
+            "type": "Reference",
+            "status": "coming",
+            "monday": "https://pmgllc.monday.com/boards/18409470276/pulses/11801023967"
+          },
+          {
+            "id": "11801030067",
+            "name": "Lock Confirmation Process",
+            "type": "Reference",
+            "status": "coming",
+            "monday": "https://pmgllc.monday.com/boards/18409470276/pulses/11801030067"
+          },
+          {
+            "id": "11801038550",
+            "name": "Expired Lock Policy",
+            "type": "Policy",
+            "status": "coming",
+            "monday": "https://pmgllc.monday.com/boards/18409470276/pulses/11801038550"
+          }
+        ]
+      },
       {
         "id": "overlays",
         "label": "Overlays",
@@ -813,98 +566,42 @@
             "monday": "https://pmgllc.monday.com/boards/18409470276/pulses/11800990422"
           }
         ]
-      },
-      {
-        "id": "pricing-lock",
-        "label": "Pricing & Lock",
-        "count": 3,
-        "items": [
-          {
-            "id": "11801023967",
-            "name": "Loan Level Price Adjusters (LLPAs) Guide",
-            "type": "Reference",
-            "status": "coming",
-            "monday": "https://pmgllc.monday.com/boards/18409470276/pulses/11801023967"
-          },
-          {
-            "id": "11801030067",
-            "name": "Lock Confirmation Process",
-            "type": "Reference",
-            "status": "coming",
-            "monday": "https://pmgllc.monday.com/boards/18409470276/pulses/11801030067"
-          },
-          {
-            "id": "11801038550",
-            "name": "Expired Lock Policy",
-            "type": "Policy",
-            "status": "coming",
-            "monday": "https://pmgllc.monday.com/boards/18409470276/pulses/11801038550"
-          }
-        ]
-      },
+      }, */ 
       {
         "id": "underwriting-reference",
-        "label": "Underwriting Reference",
-        "count": 8,
+        "label": "Underwriting (incl Overlays)",
+        "count": 4,
         "items": [
           {
-            "id": "11801069748",
-            "name": "Credit Policy Overview",
+            "id": "11800993405",
+            "name": "Conventional Loans Overlays",
             "type": "Reference",
-            "status": "coming",
-            "monday": "https://pmgllc.monday.com/boards/18409470276/pulses/11801069748"
+            "status": "available",
+            "monday": "https://cdn.prod.website-files.com/67c8baa0074bec6e6b3d7b29/6a4c27a49c428a94b4950cd7_SimplyPMG.pro%20%20Conventional%20Loans%20Overlays%20v1.pdf"
           },
           {
-            "id": "11801034755",
-            "name": "1003 Requirements",
-            "type": "Reference",
-            "status": "coming",
-            "monday": "https://pmgllc.monday.com/boards/18409470276/pulses/11801034755"
+            "id": "11800990001",
+            "name": "FHA Case Number & CAIVRS - Guide",
+            "type": "Guide",
+            "status": "available",
+            "monday": "https://cdn.prod.website-files.com/67c8baa0074bec6e6b3d7b29/6a4c283dddf6c6100af59a18_SimplyPMG.pro%20FHA%20Case%20Number%20%26%20CAIVRS%20-%20Guide%20v1.pdf"
           },
           {
-            "id": "11801089375",
-            "name": "Property Types & Eligibility",
+            "id": "11800954880",
+            "name": "FHA Overlays",
             "type": "Reference",
-            "status": "coming",
-            "monday": "https://pmgllc.monday.com/boards/18409470276/pulses/11801089375"
-          },
-          {
-            "id": "11801080389",
-            "name": "Non-Occupant Co-Borrower Policy",
-            "type": "Reference",
-            "status": "coming",
-            "monday": "https://pmgllc.monday.com/boards/18409470276/pulses/11801080389"
-          },
-          {
-            "id": "11800267239",
-            "name": "Current Conforming Loan Limits",
-            "type": "Reference",
-            "status": "updating",
-            "monday": "https://pmgllc.monday.com/boards/18409470276/pulses/11800267239"
-          },
-          {
-            "id": "11801048920",
-            "name": "DTI Policy by Product",
-            "type": "Reference",
-            "status": "coming",
-            "monday": "https://pmgllc.monday.com/boards/18409470276/pulses/11801048920"
-          },
-          {
-            "id": "11801086466",
-            "name": "UW Turn Times & Escalation Policy",
-            "type": "Policy",
-            "status": "coming",
-            "monday": "https://pmgllc.monday.com/boards/18409470276/pulses/11801086466"
+            "status": "available",
+            "monday": "https://cdn.prod.website-files.com/67c8baa0074bec6e6b3d7b29/6a4c28982caac114457dcb32_SimplyPMG.pro%20FHA%20Overlays%20v1.pdf"
           },
           {
             "id": "11801053469",
-            "name": "File Naming Conventions",
+            "name": "VA Overlays",
             "type": "Reference",
-            "status": "coming",
-            "monday": "https://pmgllc.monday.com/boards/18409470276/pulses/11801053469"
+            "status": "available",
+            "monday": "https://cdn.prod.website-files.com/67c8baa0074bec6e6b3d7b29/6a4c28fa5239218b1a632d3c_SimplyPMG.pro%20VA%20Overlays%20v1.pdf"
           }
         ]
-      },
+      }/*,
       {
         "id": "closing-reference",
         "label": "Closing Reference",
@@ -946,10 +643,10 @@
             "monday": "https://pmgllc.monday.com/boards/18409470276/pulses/11801081059"
           }
         ]
-      }
+      }*/
     ]
   },
-  {
+  /*{
     "id": "faq",
     "label": "FAQ",
     "icon": "❓",
@@ -1045,7 +742,7 @@
         ]
       }
     ]
-  }
+  }*/
 ];
   const STATUS = {
     available:{label:'Available',cta:'↓ Download'},
