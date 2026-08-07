@@ -212,7 +212,7 @@
             "type": "Matrix",
             "status": "available",
             "monday": "https://cdn.prod.website-files.com/67c8baa0074bec6e6b3d7b29/6a73b73bf20fa39984b1b1c5_SimplyPMG.pro%20Earned%20Equity%20Program%20Matrix%2008.03.2026.pdf",
-            "filename": "SimplyPMG - Earned Equity Program Matrix 05.05.26"
+            "filename": "SimplyPMG - Earned Equity Program Matrix 08.03.26"
           },
           {
             "id": "12026614264",
