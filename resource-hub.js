@@ -204,7 +204,7 @@
       {
         "id": "specialty",
         "label": "Specialty Products",
-        "count": 2,
+        "count": 5,
         "items": [
           {
             "id": "11801125396",
@@ -221,6 +221,30 @@
             "status": "available",
             "monday": "https://cdn.prod.website-files.com/67c8baa0074bec6e6b3d7b29/6a21c6588306a43ee966b94f_SimplyPMG%20%20Simply%20DPA%20Program%20Matrix%2005.11.26.pdf",
             "filename": "SimplyPMG - Simply DPA Program Matrix 05.11.26"
+          },
+          {
+            "id": "12026614264",
+            "name": "Eco Advantage DPA Matrix",
+            "type": "Matrix",
+            "status": "available",
+            "monday": "https://cdn.prod.website-files.com/67c8baa0074bec6e6b3d7b29/6a74b6df6a4a097010910455_SimplyPMG.pro%20Eco%20Advantage%20DPA%20Matrix%2007.24.2026.pdf",
+            "filename": "SimplyPMG.pro Eco Advantage DPA Matrix 07.24.2026"
+          },
+          {
+            "id": "12026614264",
+            "name": "Agency Plus Program Matrix",
+            "type": "Matrix",
+            "status": "available",
+            "monday": "https://cdn.prod.website-files.com/67c8baa0074bec6e6b3d7b29/6a7e1d64aa91485183d372d2_SimplyPMG.pro%20Agency%20Plus%20Program%20Matrix%202026.08.12%203.pdf",
+            "filename": "SimplyPMG.pro Agency Plus Program Matrix 2026.08.12"
+          },
+          {
+            "id": "12026614264",
+            "name": "FlexPath Program Matrix",
+            "type": "Matrix",
+            "status": "available",
+            "monday": "https://cdn.prod.website-files.com/67c8baa0074bec6e6b3d7b29/6a7e1dba2e09283b06bd3d75_SimplyPMG.pro%20FlexPath%20Program%20Matrix%202026.08.12%202.pdf",
+            "filename": "SimplyPMG.pro FlexPath Program Matrix 2026.08.12"
           }
         ]
       },
