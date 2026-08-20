@@ -137,7 +137,7 @@
     "icon": "📊",
     "badge": null,
     "lede": "Eligibility matrices for every PMG loan program. Downloadable PDFs, updated monthly.",
-    "total": 8,
+    "total": 11,
     "subcategories": [
       {
         "id": "conventional",
