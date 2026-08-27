@@ -227,8 +227,8 @@
             "name": "Eco Advantage DPA Matrix",
             "type": "Matrix",
             "status": "available",
-            "monday": "https://cdn.prod.website-files.com/67c8baa0074bec6e6b3d7b29/6a88d9beb08e7e6a6f4a9a0b_SimplyPMG.pro%20Eco%20Advantage%20DPA%20Matrix%2008.20.2026.pdf",
-            "filename": "SimplyPMG.pro Eco Advantage DPA Matrix 08.20.2026"
+            "monday": "https://cdn.prod.website-files.com/67c8baa0074bec6e6b3d7b29/6a90a8740b200f205155e397_SimplyPMG.pro%20Eco%20Advantage%20DPA%20Matrix%2008.27.2026.pdf",
+            "filename": "SimplyPMG.pro Eco Advantage DPA Matrix 08.27.2026"
           },
           {
             "id": "12026614264",
