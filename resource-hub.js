@@ -219,8 +219,8 @@
             "name": "Simply DPA Matrix",
             "type": "Matrix",
             "status": "available",
-            "monday": "https://cdn.prod.website-files.com/67c8baa0074bec6e6b3d7b29/6aac7998ea5c4eec24a5b1ea_SimplyPMG.pro%20%20Simply%20DPA%20Program%20Matrix%2009.17.26.pdf",
-            "filename": "SimplyPMG - Simply DPA Program Matrix 09.17.26"
+            "monday": "https://cdn.prod.website-files.com/67c8baa0074bec6e6b3d7b29/6aad7b9ac99941700fcbc990_SimplyPMG.pro%20%20Simply%20DPA%20Program%20Matrix%2009.18.26.pdf",
+            "filename": "SimplyPMG - Simply DPA Program Matrix 09.18.26"
           },
           {
             "id": "12026614264",
