@@ -204,7 +204,7 @@
       {
         "id": "specialty",
         "label": "Specialty Products",
-        "count": 5,
+        "count": 6,
         "items": [
           {
             "id": "11801125396",
@@ -239,12 +239,20 @@
             "filename": "SimplyPMG.pro Agency Plus Program Matrix 2026.08.12"
           },
           {
-            "id": "12026614264",
+            "id": "12026614265",
             "name": "FlexPath Program Matrix",
             "type": "Matrix",
             "status": "available",
             "monday": "https://cdn.prod.website-files.com/67c8baa0074bec6e6b3d7b29/6a7e1dba2e09283b06bd3d75_1d6e736f0ba13bd6584b7c951858b548_SimplyPMG.pro%20FlexPath%20Program%20Matrix%202026.08.12%202.pdf",
             "filename": "SimplyPMG.pro FlexPath Program Matrix 2026.08.12"
+          },
+         {
+            "id": "12026614266",
+            "name": "Medical Professionals MedPro Program",
+            "type": "Matrix",
+            "status": "available",
+            "monday": "https://cdn.prod.website-files.com/67c8baa0074bec6e6b3d7b29/6abc458f3f50a146185fe994_SimplyPMG%20Medical%20Professionals%20MedPro%20Program%20Guideline.docx",
+            "filename": "SimplyPMG Medical Professionals MedPro Program Guideline"
           }
         ]
       },
