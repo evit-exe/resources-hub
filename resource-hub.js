@@ -251,8 +251,8 @@
             "name": "Medical Professionals MedPro Program",
             "type": "Matrix",
             "status": "available",
-            "monday": "https://cdn.prod.website-files.com/67c8baa0074bec6e6b3d7b29/6abc458f3f50a146185fe994_SimplyPMG%20Medical%20Professionals%20MedPro%20Program%20Guideline.docx",
-            "filename": "SimplyPMG Medical Professionals MedPro Program Guideline"
+            "monday": "https://cdn.prod.website-files.com/67c8baa0074bec6e6b3d7b29/6abd2c57463e7dd123589e16_SimplyPMG%20Medical%20Professionals%20MedPro%20Program%20Matrix%2008.19.26.pdf",
+            "filename": "SimplyPMG Medical Professionals MedPro Program Guideline 2026.08.19"
           }
         ]
       },
