@@ -64,24 +64,27 @@
           },
           {
             "id": "11800233011",
-            "name": "EEP Appraisal Ordering",
+            "name": "Ordering an Appraisal for an EEP Loan",
             "type": "Guide",
-            "status": "coming",
-            "monday": "#"
+            "status": "available",
+            "monday": "https://cdn.prod.website-files.com/67c8baa0074bec6e6b3d7b29/6ad93953fd357acd6d08190e_Ordering%20an%20Appraisal%20for%20an%20EEP%20Loan.pdf",
+            "filename": "Ordering an Appraisal for an EEP Loan"
           },
           {
             "id": "11800217794",
-            "name": "EEP Submission Overview",
+            "name": "Submitting an EEP Loan - Phase 1",
             "type": "Guide",
-            "status": "coming",
-            "monday": "#"
+            "status": "available",
+            "monday": "https://cdn.prod.website-files.com/67c8baa0074bec6e6b3d7b29/6ad939d73527343ed3d5e120_Submitting%20an%20EEP%20Loan%20-%20Phase%201.pdf",
+            "filename": "Submitting an EEP Loan - Phase 1"
           },
           {
             "id": "11800222093",
-            "name": "Entity Job Aid / Phase 2",
+            "name": "Submitting an EEP Loan - Phase 2",
             "type": "Guide",
-            "status": "coming",
-            "monday": "#"
+            "status": "available",
+            "monday": "https://cdn.prod.website-files.com/67c8baa0074bec6e6b3d7b29/6ad93a9c3527343ed3d61ca7_Submitting%20an%20EEP%20Loan%20-%20Phase%202.pdf",
+            "filename": "Submitting an EEP Loan - Phase 2"
           }
         ]
       },
@@ -100,22 +103,23 @@
           },
           {
             "id": "11800243498",
-            "name": "EEP Pre-Approval Checklist",
+            "name": "PreApproval Checklist Earned Equity",
             "type": "Checklist",
-            "status": "coming",
-            "monday": "#"
-          },
-          {
+            "status": "available",
+            "monday": "https://cdn.prod.website-files.com/67c8baa0074bec6e6b3d7b29/6ad93b909e36e0b0ac98b3b5_PreApproval%20Checklist%20Earned%20Equity.pdf",
+            "filename": "PreApproval Checklist Earned Equity"
+          }
+          /*{
             "id": "11800234132",
             "name": "EEP Self Employment Calculator",
             "type": "Guide",
             "status": "coming",
             "monday": "#"
-          }
+          }*/
         ]
       },
 
-      {
+      /*{
         "id": "faq",
         "label": "FAQ",
         "count": 1,
@@ -128,7 +132,7 @@
             "monday": "#"
           }
         ]
-      },
+      },*/
     ]
   },
   {
